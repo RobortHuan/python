@@ -1,5 +1,5 @@
 from flask import Flask  #调用flask框架
-app=Flask(__name__)
+app=Flask(__name__)    #Web Server Gateway Interface
 
 @app.route('/')
 def hello_world():
